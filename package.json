@@ -1,0 +1,10 @@
+{
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "start": "node ./src/task.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  }
+}
